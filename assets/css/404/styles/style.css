@@ -1,0 +1,273 @@
+body {
+	background-color: transparent;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	overflow:auto;
+	height:100%;
+}
+
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	margin-bottom: 5px;
+	padding-left: 25px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.blu-bird {
+	background-image: url(../images/blu-bird.png);
+	height: 325px;
+	width: 420px;
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	display:inline-block;
+}
+
+.blu-bird a{
+	height: 325px;
+	width: 420px;
+	display:inline-block;
+}
+
+.wrapper {
+	width: 860px;
+	height: 768px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/light-background.png);
+}
+.center-block {
+	width: 360px;
+	height: auto;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.not-found-404 {
+	color: #4c5261;
+	font-weight: 400;
+	font-size: 227px;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.91);
+	margin-left: -10px;
+	padding: 0;
+}
+
+.not-found-title {
+	font-size: 30px;
+	color: #d2d2d2;
+	text-align: center;
+	padding: 0;
+	position: relative;
+	bottom: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: normal;
+}
+
+.not-found-text {
+	text-align:center;
+}
+
+.not-found-text h2 {
+	font-family: 'Titillium Web', Arial,Helvetica,Sans-serif;
+	font-size:20px;
+	font-weight:400;
+	line-height:20px;
+	color:#d2d2d2;
+}
+
+.not-found-text p {
+	font-family: 'Open Sans', Arial,Helvetica,Sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#ffffff;
+	margin-top:10px;
+}
+
+#search {
+	margin-top:50px;
+	margin-bottom:50px;
+	text-align:center;
+}
+
+#search input[type="text"] {
+	font-family:'Titillium Web', Arial,Helvetica,Sans-serif;
+	font-weight:400;
+	font-size:13px;
+	color: #777;
+	border: 0 none;
+	width: 150px;
+	padding: 6px 15px 6px 35px;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+	-webkit-transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	-o-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+	
+	background-color: #e6e6e6;
+	background-image: url(../images/search-dark.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	
+}
+
+#search input[type="text"]:focus {
+    width: 200px;
+}
+
+/* Social Media Icons Start */
+
+.social-media{
+	margin-top:10px;
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.social-media ul li {
+	width:32px;
+	height:32px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.social-media ul li a{
+	width:32px;
+	height:32px;
+	float:left;
+	margin-left:23px;
+}
+
+.facebook {
+	background-image: url(../images/icons/facebook-grey.png);
+	background-repeat:no-repeat;
+	width: 32px;
+	height:32px;
+	display:block;
+}
+
+.facebook:hover {
+	background-image: url(../images/icons/facebook.png);
+}
+
+.twitter {
+	background-image: url(../images/icons/twitter-grey.png);
+	background-repeat:no-repeat;
+	width: 32px;
+	height:32px;
+	display:block;
+}
+
+.twitter:hover {
+	background-image: url(../images/icons/twitter.png);
+}
+
+.googleplus {
+	background-image: url(../images/icons/googleplus-grey.png);
+	background-repeat:no-repeat;
+	width: 32px;
+	height:32px;
+	display:block;	
+}
+
+.googleplus:hover {
+	background-image: url(../images/icons/google.png);
+}
+
+
+.linkedin {
+	background-image: url(../images/icons/linkedin-grey.png);
+	background-repeat:no-repeat;
+	width: 32px;
+	height:32px;
+	display:block;	
+}
+
+.linkedin:hover {
+	background-image: url(../images/icons/linkedin.png);
+}
+
+.youtube {
+	background-image: url(../images/icons/youtube-grey.png);
+	background-repeat:no-repeat;
+	width: 32px;
+	height:32px;
+	display:block;
+}
+
+.youtube:hover {
+	background-image: url(../images/icons/youtube.png);
+}
+
+.instagram {
+	background-image: url(../images/icons/instagram-grey.png);
+	background-repeat:no-repeat;
+	width: 32px;
+	height:32px;
+	display:block;
+}
+.instagram:hover {
+	background-image: url(../images/icons/instagram.png);
+}
+
+/* Social Media Icons End */
+
+/* Tooltip Start */
+
+.tooltip {
+	font-size: 12px;
+	display: block;
+	height: 61px;
+	width: 208px;
+	padding: 8px 16px 0px;
+	color: #eee;
+	z-index: 999;
+	background-image: url(../images/tooltip-bg.png);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
+.tooltip strong{
+	font-weight:bold;
+	display:block;
+	color:#FFF;
+	padding-bottom:6px;
+}
+
+/* Tooltip End */
+
+.footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	text-align:center;
+	color:#d2d2d2;
+	font-size:13px;
+}
+
+
+.footer a:link{
+	color:#d2d2d2;
+	text-decoration:none;
+}

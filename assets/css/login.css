@@ -1,0 +1,116 @@
+*{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    margin:0;
+    pading:0;
+    color:#fff;
+    background:url('http://www.treemolabs.com/dashboard/bg-login.png') repeat #1b1b1b;
+    font-size:14px;
+    text-shadow:#050505 0 -1px 0;
+    font-weight:bold;
+}
+li{
+    list-style:none;
+}
+#dummy{
+    position:absolute;
+    top:0;
+    left:0;
+    border-bottom:solid 3px #777973;
+    height:100px;
+    width:100%;
+    background:url('http://www.treemolabs.com/dashboard/bg-login-top.png') repeat #fff;
+    z-index:1;
+}
+#dummy2{
+    position:absolute;
+    top:0;
+    left:0;
+    height:252px;
+    width:100%;
+    background:transparent;
+    z-index:2;
+}
+#login-wrapper{
+    margin:0 0 0 -160px;
+    width:320px;
+    text-align:center;
+    z-index:99;
+    position:absolute;
+    top:0;
+    left:50%;
+}
+#login-top{
+    height:50px;
+    padding-top:140px;
+    text-align:center;
+}
+label{
+    width:70px;
+    float:left;
+    padding:8px;
+    line-height:14px;
+    margin-top:-4px;
+}
+input.text-input{
+    width:200px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background:#fff;
+    border:solid 1px transparent;
+    color:#555;
+    padding:8px;
+    font-size:13px;
+}
+button{
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #31363e), color-stop(100%, #21242a));
+    background-image:-webkit-linear-gradient(#31363e,#21242a);
+    background-image:-moz-linear-gradient(#31363e,#21242a);
+    background-image:-o-linear-gradient(#31363e,#21242a);
+    background-image:linear-gradient(#31363e,#21242a);
+    -webkit-box-shadow:rgba(0,0,0,0.1) 0 1px 2px,rgba(255,255,255,0.1) 0 1px 1px inset;
+    -moz-box-shadow:rgba(0,0,0,0.1) 0 1px 2px,rgba(255,255,255,0.1) 0 1px 1px inset;
+    box-shadow:rgba(0,0,0,0.1) 0 1px 2px,rgba(255,255,255,0.1) 0 1px 1px inset;
+    color:#fff;
+    border-color:#16181c;
+    height:2em;
+    width:220px;
+    margin-bottom:0;
+}
+button:hover{
+    background:#333;
+}
+div.error{
+    padding:8px;
+    background:rgba(52, 4, 0, 0.4);
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    border:solid 1px transparent;
+    margin:6px 0;
+}
+
+#login-content {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2C2F36), color-stop(100%, #202328));
+    background: -webkit-linear-gradient(#2C2F36,#202328);
+    background: -moz-linear-gradient(#2c2f36,#202328);
+    background: -o-linear-gradient(#2c2f36,#202328);
+    background: linear-gradient(#2C2F36,#202328);
+    padding: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px,#444 0 1px 0 inset;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 2px 4px,#444 0 1px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px,#444 0 1px 0 inset;
+}
+
+
+#footer{
+    display:none;
+}
+#header{
+    display:none;
+}
